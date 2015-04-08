@@ -1,4 +1,8 @@
-// blinggggggggggg
+// bling
+// the kind of thing you toss into the page as you start prototyping
+// also a prollyfill.
+
+//   it's all resig's fault.  github.com/jeresig/nodelist
 
 Window.prototype.$ = document.querySelectorAll.bind(document)
 
