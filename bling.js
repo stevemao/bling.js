@@ -9,6 +9,7 @@ Window.prototype.$ = document.querySelectorAll.bind(document)
 Node.prototype.on = function (name, fn) {
   this.addEventListener(name, fn)
 }
+// setting to EventTarget.prototype.addEventListener; directly would be nice, but not supported everywhere.
 
 // NodeList needs all Array goodies
 NodeList.prototype.__proto__ = Array.prototype
@@ -19,3 +20,6 @@ NodeList.prototype.on = NodeList.prototype.addEventListener = function (name, fn
     elem.on(name, fn)
   })
 } // todo: dispatchEvent & removeEventListener
+
+
+

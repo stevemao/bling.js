@@ -10,5 +10,8 @@ document.body.on('dblclick', function (e) {
 
 // classic Bling + on()
 $('p').on('click', function (e) {
-  p.hidden = true
+  e.currentTarget.hidden = true
 })
+
+
+
