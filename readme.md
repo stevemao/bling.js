@@ -27,6 +27,8 @@ $('p').on('click', function (e) {
 })
 ```
 
+It doesn't do anything else. This is **not** a jQuery equivalent.
+
 #### Notes:
 * `on()` works on elements, `document`, `window`, and results from `querySelector` & `querySelectorAll`.
 * `$` is qSA so if you're grabbing a single element you'll have to `[0]` it.
