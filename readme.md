@@ -1,4 +1,3 @@
-
 # bling.js
 
 Because you want the $ of jQuery without the jQuery.
@@ -40,3 +39,4 @@ $('p').on('click', function (e) {
 * I'm curious how ES6/7 would let a NodeList be iterable and inherit from EventTarget
 * Setting `Node.prototype.on = EventTarget.prototype.addEventListener` is awesome. It works in Chrome/FF but not yet in IE/Safari.
 * I haven't set up any off() or trigger() to map to `dispatchEvent` & `removeEventListener`. I'm OK with that.
+* I'm using [standard](https://github.com/feross/standard) for style. I love semicolons too, but am giving it a go without them here. TBH, I'll probably end up on [semi-standard](https://github.com/Flet/semistandard) in the end.
