@@ -41,4 +41,4 @@ It doesn't do anything else. This is **not** a jQuery equivalent.
 * I'm curious how ES6/7 would let a NodeList be iterable and inherit from EventTarget
 * Setting `Node.prototype.on = EventTarget.prototype.addEventListener` is awesome. It works in Chrome/FF but not yet in IE/Safari.
 * I haven't set up any off() or trigger() to map to `dispatchEvent` & `removeEventListener`. I'm OK with that.
-* I'm using [standard](https://github.com/feross/standard) for style. I love semicolons too, but am giving it a go without them here. TBH, I'll probably end up on [semi-standard](https://github.com/Flet/semistandard) in the end.
+* I'm using [semi-standard](https://github.com/Flet/semistandard) for style. I tried standard sans-semicolons, but can't get used to it.
