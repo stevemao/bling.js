@@ -12,13 +12,13 @@ What bling'll do for ya:
 
 ```js
 // forEach over the qSA result, directly.
-document.querySelectorAll('input').forEach(el => /* ... */)
+document.querySelectorAll('input').forEach(el => /* ... */);
 
 // on() rather than addEventListener()
-document.body.on('dblclick', evt => /* ... */)
+document.body.on('dblclick', evt => /* ... */);
 
 // classic $ + on()
-$('p').on('click', el => /* ... */)
+$('p').on('click', el => /* ... */);
 ```
 
 It doesn't do anything else. This is **not** a jQuery equivalent.
