@@ -1,0 +1,23 @@
+{
+  "name": "bling.js",
+  "version": "1.0.0",
+  "description": "Because you want the $ of jQuery without the jQuery",
+  "main": "bling.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stevemao/bling.js.git"
+  },
+  "keywords": [
+    "jQuery",
+    "$"
+  ],
+  "author": "Paul Irish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevemao/bling.js/issues"
+  },
+  "homepage": "https://github.com/stevemao/bling.js#readme"
+}
