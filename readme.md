@@ -4,11 +4,7 @@ Because you want the $ of jQuery without the jQuery.
 
 ------------------------------------
 
-You could call this a microlibrary, but really it's just some code that works.
-
-You may be interested in this library if you get tired of the `[].slice.call( document.querySelectorAll('.foo'), function(){ … ` rodeo.
-
-What bling'll do for ya:
+You may be interested in bling.js if you get tired of the `[].slice.call( document.querySelectorAll('.foo'), function(){ … ` rodeo. It does this:
 
 ```js
 // forEach over the qSA result, directly.
